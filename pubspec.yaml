@@ -1,0 +1,30 @@
+name: cinema_app
+description: Aplicación de cine para reserva de boletos
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.1.0
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
+  firebase_core: ^3.8.0 # Actualizado para ser compatible con cloud_firestore
+  cloud_firestore: ^5.5.0 # Versión más reciente y compatible
+  fluttertoast: ^8.2.1   # Para mensajes rápidos (opcional)
+  uuid: ^3.0.7           # Para manejar identificadores únicos (opcional)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ # Carpeta para recursos gráficos.
